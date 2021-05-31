@@ -1,0 +1,14 @@
+.container h1{
+  text-align:center;font-weight:bold;color:#000
+}
+.container{
+  background-color:#dcd6d9;
+  margin-top: 30px;
+}
+.control-label{
+font-size: 15px;
+
+}
+#title,#date{
+  width:50%;
+}
