@@ -12,3 +12,8 @@ font-size: 15px;
 #title,#date{
   width:50%;
 }
+#demo {
+text-align: center;
+font-size: 50px;
+margin-top: 20px;
+}

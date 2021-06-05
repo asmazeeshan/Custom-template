@@ -7,6 +7,8 @@ jQuery(document).ready(function($) {
         $('#expiry-msg').hide();
     }
     });
+
+
     // Submitting form through ajax
  
     // $("#submit-btn").click(function(e) {

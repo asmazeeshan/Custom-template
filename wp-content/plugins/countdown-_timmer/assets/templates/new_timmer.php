@@ -1,4 +1,5 @@
 <?php
+
 $result = null;
 if(isset($_GET['id']) && !empty($_GET['id'])){
     global $wpdb;
@@ -17,6 +18,7 @@ if(isset($_POST['submit']))
     insertdata_in_database($title, $time, $after_expiry, $message, $created_at);
  
 }
+
 ?>
 
 <div class="container">

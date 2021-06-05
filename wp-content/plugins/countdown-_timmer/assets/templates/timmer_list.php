@@ -29,7 +29,7 @@ $results = $wpdb->get_results( "SELECT * FROM $table_name");
         echo '<td>' . $timmer_data->message . '</td>';
     ?>
         <?php echo '<td>'; ?> 
-        <a href="<?php echo admin_url('/admin.php?page=add-new-review&id='.$timmer_data->id); ?>">Edit</a>
+        <a href="<?php echo admin_url('/admin.php?page=add-new-timer&id='.$timmer_data->id); ?>">Edit</a>
         <a href="#" target="_blank">Delete</a>
         <?php echo '</td>'; ?>
     <?php
